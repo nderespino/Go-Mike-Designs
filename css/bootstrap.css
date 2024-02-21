@@ -1477,7 +1477,8 @@ hr {
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    border: 0
+    border: 0;
+    display: none;
 }
 
 .sr-only-focusable:active,
@@ -1487,7 +1488,8 @@ hr {
     height: auto;
     margin: 0;
     overflow: visible;
-    clip: auto
+    clip: auto;
+    display: none;
 }
 
 [role=button] {

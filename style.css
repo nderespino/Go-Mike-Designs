@@ -1,3 +1,21 @@
+.bg-dots-bg {
+  background-image: url("img/dots-bg.png");
+}
+
+.bg-lines-h2-bg {
+  background-image: url("img/lines-h2-bg.png");
+}
+
+.bg-atlanta-20made-20sign {
+  background-image: url("img/atlanta%20made%20sign.jpg");
+}
+
+.bg-atlanta-20made-20sign-20orange {
+  background-image: url("img/atlanta made sign orange-min.jpg");
+}
+
+
+
 body {
   margin: 0;
   padding: 0;
@@ -31,7 +49,7 @@ a:hover {
   width: 100%;
   clear: both;
   background: 50% 50% no-repeat;
-  padding: 0 50px;
+  padding: 0 10px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -317,7 +335,7 @@ a:hover {
 
 .navbar .nav {
   padding-top: 2px;
-  margin-right: -16px;
+  margin-right:100px;
   float: right;
   z-index: 1;
 }
@@ -326,6 +344,8 @@ a:hover {
   float: left;
   margin-top: 4px;
   font-size: 16px;
+  padding-left: 10px;
+  list-style-type: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -788,8 +808,11 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f7793f;
-  color: #ffffff !important;
+  color: rgb(74, 42, 7) !important;
 }
+
+
+
 
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
@@ -830,7 +853,7 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign-20orange {
-  background-image: url("img/atlanta\ made\ sign\ orange-min.jpg");
+  background-image: url("img/atlanta made sign orange-min.jpg");
 }
 
 @media (max-width: 1024px) {
