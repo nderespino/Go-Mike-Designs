@@ -26,11 +26,13 @@ body {
 
 }
 
-
-
 footer{
   padding: 0;
   padding-bottom: 0;
+}
+
+.col-sm-12 img{
+  width: 40%;
 }
 
 a,
@@ -873,7 +875,7 @@ label {
 }
 
 .bg-atlanta-20made-20sign-20orange {
-  background-image: url("img/atlanta made sign orange-min.jpg");
+  background-image: url("img/atlanta-made-sign-orange-min (1).webp");
 }
 
 @media (max-width: 1024px) {
