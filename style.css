@@ -23,6 +23,14 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+
+footer{
+  padding: 0;
+  padding-bottom: 0;
 }
 
 a,
@@ -55,6 +63,11 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
   position: relative;
+}
+
+#bloc-7{
+  padding-bottom: 350px;
+  padding-top: 200px;
 }
 
 .bloc .container {
@@ -346,6 +359,7 @@ a:hover {
   font-size: 20px;
   padding-left: 10px;
   list-style-type: none;
+  font-size: 24px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -719,7 +733,7 @@ p {
   color: #ffffff !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 700;
 }
 
